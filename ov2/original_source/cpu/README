@@ -1,0 +1,4 @@
+the 2-dimension simulation by Optimal Velocity model. 
+
+this directory contains the original program.
+"% java OVModel_2D" command invokes simulation program 
