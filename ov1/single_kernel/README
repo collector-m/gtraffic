@@ -1,0 +1,5 @@
+gpu_v3
+
+ov.cのなかで、まずmemcpyHtoDをし、1回だけLaunchgridをする。その後memcpyDtoHをする。
+(main関数のforループをgpuに入れ込んだもの)
+GPU内でglobalsynchronizationができないため、出力結果に誤差を含む。
