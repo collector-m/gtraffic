@@ -80,7 +80,7 @@ public class Solve {
 	pointer = new int[N][6]; //point 6-neighbors of each object
 
 	try{
-	    file = new File("/home/hirabayashi/research/test/OV_sim/2dim/useCUDA/sync/data/data.dat");
+	    file = new File("./data.dat");
 	    if(checkBeforeWritefile(file))
 		filewriter = new FileWriter(file);
 	}catch(IOException e){
